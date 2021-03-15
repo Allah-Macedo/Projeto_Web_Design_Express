@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Allah Macedo">
+    <script src="https://kit.fontawesome.com/c97d8e6f3d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Poppins:wght@300;400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="_css/estilo.css">
+    <title>coding.up</title>
+</head>
+<body>
+
+<!-- header start -->
+    <header>
+        <div class="box">
+            <div class="logo">
+               <a href="index.html"> Coding.Up </a>
+            </div>
+
+            <nav class="menu_pc">
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html" class="selected">Contato</a></li>
+                </ul>
+            </nav>
+           
+            <nav class="menu_mobile"> 
+              <span class="menu_bars"><i class="fas fa-bars"></i></span>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li class="selected_mobile"><a href="contato.html">Contato</a></li>
+               </ul>
+            </nav>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+<!-- hero_mult -->    
+    <section class="hero_mult">
+        <div class="overlay_sobre"></div>
+       <div class="box">
+          <h2>Contato Flaus Belis</h2>
+          <p>
+            Flaus belis dolor sit, amet consectetur adipisicing elit, 
+            quidem laudantium sint distinctio error vitae, autem minima a ea. 
+          </p>
+          <p>
+            Flaus belis dolor sit, amet consectetur adipisicing elit, 
+            quidem laudantium sint distinctio error vitae, autem minima a ea. 
+          </p>
+       </div> <!-- /.box -->
+    </section><!-- /.hero_mult -->
+
+<!-- form_contato -->    
+    <section class="form_contato">
+       <div class="box">
+          <div class="w60 bloco_1_contato">
+             <h2>Entre em contato conosco !</h2>
+             <form action="" method="POST" class="form_contato">
+                 <div class="w50"><input type="text" required placeholder="Nome"></div>
+                 <div class="w50"><input type="text" required placeholder="Sobre nome"></div>
+                 <div class="w100"><input type="email" required placeholder="E-mail"></div>
+                 <div class="w100"><textarea name="" id="" cols="30" rows="10" required placeholder="Seu texto"></textarea></div> 
+                 <input type="submit" name="author" value="Enviar">
+             </form> 
+          </div><!--.w60-->
+            
+          <div class="w40 bloco_2_contato">
+             <h2><i class="fas fa-comment"></i> Fale com nossa equipe</h2>
+             <p>
+                Flaus belis dolor sit, amet consectetur adipisicing elit, 
+                quidem laudantium sint distinctio error vitae, autem minima a ea. 
+             </p>
+          </div>  <!-- /.w40 -->
+
+        <div class="clear"></div>
+       </div> <!-- /.box -->
+    </section> <!-- /.form_contato -->
+   
+<!-- section redes start -->    
+    <section class="redes center">
+        <div class="box">
+            <div class="box_redes">
+                <a href="#" id="facebook"><i class="fab fa-facebook"></i></a> 
+                <a href="#" id="youtube"><i class="fab fa-youtube"></i></a> 
+                <a href="#" id="github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer1 center">
+        <div class="box">
+           <div class="w33">
+               <nav class="menu_footer">
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="sobre.html">Sobre</a></li>
+                       <li><a href="contato.html">contato</a></li>
+                   </ul>
+               </nav>
+               <p><span><i class="fas fa-map-marker-alt"></i></span>Rua flaus belis - frigos galis</p>
+               <p><span><i class="fas fa-envelope"></i></span>flaus.belis@glauspit.com</p>
+           </div>
+           <div class="w33">
+               <h2>Flaus Belis</h2>
+               <p>
+                  Flaus belis, ipsum dolor sit amet consectetur adipisicing elit. 
+                  Explicabo est totam aperiam reiciendis nam animi, corrupti velit  
+                  Eligendi nemo nostrum velit!
+               </p>
+           </div>
+           <div class="w33">
+               <form action="">
+                   <input type="email" required placeholder="flaus.belis@glauspit.com"><input type="submit" name="acao" value="Mìtter">
+               </form>
+               <span class="span_flaus_belis"><a href="#">Flaus</a> / <a href="#">Belis</a></span>
+           </div>
+
+           <div class="clear"></div>
+        </div>
+    </footer>
+
+    <footer class="footer2 center">
+        <div class="box">
+            <p>&copy; Coding.Up - since 2020</p>
+        </div>
+    </footer>
+
+    <script>
+      $('nav.menu_mobile span').click(function(){
+        $('nav.menu_mobile ul').slideToggle()
+      });
+    </script>
+ 
+</body>
+</html>

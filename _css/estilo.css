@@ -1,0 +1,250 @@
+/* set main */
+* {margin: 0; padding: 0; box-sizing: border-box; text-decoration: none; list-style: none;}
+P* {font-family: 'Poppins', sans-serif;}
+a* {font-family: 'Hammersmith One', sans-serif;}
+
+/* set boost < */
+.box {max-width: 1100px; margin: 0 auto; padding: 0 2%;}
+.w33 {width: 33.3%; float: left;}
+.w40 {width: 40%; float: left;}
+.w50 {width: 50%; float: left;}
+.w60 {width: 60%; float: left;}
+.w100 {width: 100%; float: left;}
+.center {text-align: center;}
+.clear {clear: both;}
+.color_verd {color: rgb(25, 59, 25);} /* rgb(152, 152, 230) */
+.aqua {color: aqua;}
+.white {color: white;}
+
+div.line_txt div {position: relative; display: inline-block; width: 50px; height: 2px; background: chartreuse;}
+
+/* header start */
+header {padding: 15px 0; background: #1f1f1f;}
+
+header div.logo {float: left;}
+header div.logo a {font-size: 20pt; color: chartreuse; font-style: italic;}
+
+header nav.menu_pc {float: right;}
+header nav.menu_pc ul {position: relative; top: 5px;}
+header nav.menu_pc li {display: inline-block; padding: 0 10px;}
+header nav.menu_pc li a.selected {color: aqua; padding-bottom: 6px; border-bottom: 2px solid chartreuse;}
+header nav.menu_pc a {font-size: 13pt; font-weight: bold; color: white;}
+header nav.menu_pc a:hover {color: rgb(66, 112, 97);}
+
+header nav.menu_mobile {display: none;}
+header span.menu_bars{display: none;}
+header nav.menu_mobile span.menu_bars {float: right; padding: 10px; font-size: 20pt; color: #646262; cursor: pointer;}
+header nav.menu_mobile ul {display: none; position: absolute; top: 56px; left: 0; width: 100%; z-index: 999; background:rgba(80, 95, 74, 0.9); text-align: center; border-radius: 10px;}
+header nav.menu_mobile li {padding: 20px 0; font-size: 20pt; font-weight: normal; border-bottom: 1px solid rgb(58, 54, 54);}
+header nav.menu_mobile li.selected_mobile {background: rgb(98, 116, 91);}
+header nav.menu_mobile a {color: rgb(213, 215, 221); display: block;}
+header nav.menu_mobile a:hover {color: rgb(169, 171, 177);}
+
+/* conjunto footer < */ 
+
+/* section rede */ 
+section.redes {padding: 5px; color: burlywood;}
+section.redes a {font-size: 20pt; margin: 0 8px;}
+section.redes a#facebook {color: blue;}
+section.redes a#youtube {color: red;}
+section.redes a#github {color: rgb(41, 36, 36);}
+
+/* footer footer1 */
+footer.footer1 {padding: 30px; background: rgb(63, 53, 45);}
+footer.footer1 nav.menu_footer {margin-bottom: 15px;}
+footer.footer1 nav.menu_footer a {font-size: 16pt; color: rgb(255, 255, 255); font-weight: lighter;}
+footer.footer1 nav.menu_footer a:hover {color: rgb(161, 160, 160);}
+
+footer.footer1 p {font-size: 14pt; color: rgb(105, 190, 110);}
+footer.footer1 span {margin-right: 5px; color: aquamarine;}
+
+footer.footer1 h2 {font-size: 20pt; font-weight: lighter; color: white; margin-bottom: 10px;}
+
+footer.footer1 form {margin-bottom: 10px;}
+footer.footer1 input {padding: 10px; border-radius: 2px; border: none;}
+footer.footer1 input[type="email"] {width: 60%; height: 36px; background: #504f4f; color: aquamarine; font-size: 12pt; padding: 10px;}
+footer.footer1 input[type="email"]:focus {padding: 25px;}
+footer.footer1 input[type="submit"] {height: 37px; width: 25%; color: chartreuse; background:  #525364; font-size: 13pt;}
+
+footer.footer1 span.span_flaus_belis {font-size: 16pt; color: wheat;}
+footer.footer1 span.span_flaus_belis a {color: rgb(135, 195, 13);}
+footer.footer1 span.span_flaus_belis a:hover {color: rgb(106, 202, 170);}
+
+/* footer footer2 */
+footer.footer2 {padding: 3px; background: rgb(32, 28, 23); color: rgb(255, 255, 255);}
+
+/* conjunto footer > */
+/* set boost > */
+
+/*  ==================  */
+/*         Index        */
+/*  ==================  */
+
+/* hero start */ 
+section.hero {padding: 210px 0; position: relative; width: 100%; background: gray url('../_assets/_img/3-min.jpg')no-repeat center ; background-size: cover;}
+section.hero div.overlay {position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1; background-color: rgba(0, 0, 0, 0.6);}
+section.hero div.hero_content {position: relative; z-index: 5;}
+section.hero div.hero_content hgroup {margin-bottom: 20px;}
+section.hero div.hero_content hgroup h2 {color: white; padding: 2px 0;}
+section.hero div.hero_content hgroup h2#hero_h2_1 {font-size: 40pt; font-weight: bold; color: chartreuse;}
+section.hero div.hero_content hgroup h2#hero_h2_2 {font-size: 14pt; font-weight: lighter; color: rgb(0, 255, 255);}
+section.hero div.hero_content p {font-size: 14pt; font-weight: lighter; color: rgb(185, 200, 195);}
+
+/* front_end start */
+section.front_end {padding: 30px 0; background: rgb(63, 53, 45);}
+
+section.front_end div.line_txt h2 {font-size: 25pt; font-weight: lighter; color: white;}
+section.front_end div.line_txt {margin-bottom: 20px;}
+section.front_end div.front_end_col {padding: 0 20px; margin-bottom: 15px;}
+section.front_end div.front_end_col span {font-size: 40pt;}
+section.front_end div.front_end_col span#html5 {color: rgb(206, 80, 34);}
+section.front_end div.front_end_col span#css3 {color: rgb(55, 55, 175);}
+section.front_end div.front_end_col span#js {color: yellow;}
+section.front_end div.front_end_col p {font-size: 14pt; text-align: justify; color: rgb(117, 248, 100); letter-spacing: 0.1px;}
+
+/* equipe_objetivo start */ 
+section.equipe_objetivo {padding: 30px 0; background: rgb(121, 121, 195);}
+section.equipe_objetivo div.box {display: flex;}
+section.equipe_objetivo equipe , objetivo {width: 50%;}
+section.equipe_objetivo div.line_txt {margin-bottom: 20px;}
+section.equipe_objetivo div.line_txt h2 {font-size: 20pt; font-weight: lighter; color: rgb(41, 36, 36);} 
+
+section.equipe_objetivo div.box_avatar_coment {margin-bottom: 20px;}
+section.equipe_objetivo div.avatar {display: inline-block; width: 80px; height: 80px; background: gray; border-radius: 50%; border: 1px solid chartreuse;}
+section.equipe_objetivo div#avatar1 {background:rgb(41, 36, 36) url("../_assets/_img/allah1.jpg") center; background-size: cover;}
+section.equipe_objetivo div#avatar2 {background:rgb(41, 36, 36) url("../_assets/_img/allah2.jpg") center ; background-size: cover;}
+
+section.equipe_objetivo div.coment {display: inline-block; width: calc(100% - 100px); margin-left: 10px;  position: relative; top: -10px;}
+section.equipe_objetivo div.coment h2 {font-size: 17pt; font-weight: normal; color: rgb(93, 58, 34); margin-bottom: 5px;}
+section.equipe_objetivo div.coment p {font-size: 13pt; }
+
+section.equipe_objetivo div.objetivo p {font-size: 13pt; margin-top: 10px; }
+
+/* send_mail start */
+section.send_mail {padding: 10px 0; background: coral;}
+section.send_mail p {font-size: 16pt; font-weight: bold; color: rgb(255, 255, 255);}
+
+section.send_mail form {border: none;}
+section.send_mail form input[type="email"] {padding: 8px; width: 50%; height: 30px;  border: none; color: rgb(63, 53, 45); background: rgb(215, 221, 216)}
+section.send_mail form input[type="submit"] {padding: 1px 0; width: 20%; height: 32px; font-size: 13pt; border: none; background: rgb(63, 53, 45); color: rgb(255, 255, 255); cursor: pointer;}
+
+/* modal start */
+section.modal {padding: 30px 0; background: rgb(141, 195, 128);}
+section.modal div.modal_box {padding: 30px; margin: 8px;  border-bottom: 1px solid brown; }
+section.modal div.modal_box h2 {margin-bottom: 10px; font-size: 20pt; font-weight: lighter; color: white;}
+section.modal div.modal_box p {font-size: 13pt; font-weight: lighter; color: rgb(63, 53, 45); text-align: justify;}
+
+
+/*  ========================  */
+/*           Sobre            */
+/*  =======================   */
+
+/* hero_sobre */
+section.hero_mult {padding: 100px 0;position: relative; background: #504f4f url('../_assets/_img/hero_sobre.jpg') no-repeat center; background-size: cover; background-attachment: fixed;}
+section.hero_mult div.overlay_sobre {position: absolute; width: 100%; height: 100%; left: 0; top: 0; z-index: 1; background:  rgba(48, 46, 46, 0.7);}
+section.hero_mult div.box {position: relative; z-index: 2;}
+section.hero_mult h2 {font-size: 28pt; font-weight: normal; color:  rgb(98, 197, 89); margin-bottom: 15px;}
+section.hero_mult p {font-size: 15pt; font-weight: normal; color: white; margin-top: 3px; line-height: 20px;}
+
+/* img_txt */
+section.img_txt {padding: 30px 0; background: rgb(41, 36, 36);}
+section.img_txt div.img_txt_box { display: inline-block;}
+section.img_txt div.img_txt_box img {width: 49%; max-height: 400px; float: left; border: 2px solid chartreuse;}
+section.img_txt div.img_txt_box p {width: 49%; float: right; margin-top: 20px; font-size: 16pt; color: rgb(211, 191, 177);}
+
+section.img_txt div.img_txt_p2 {width: 100%; margin: 5px; font-size: 14pt; color: rgb(211, 191, 177);}
+
+/* parallax */ 
+section.parallax {padding: 60px 0; background: rgb(41, 36, 36) url('../_assets/_img/parallax.jpeg')no-repeat center; background-size: cover; background-attachment: fixed; border-top: 1px solid chartreuse;  border-bottom: 1px solid chartreuse;}
+section.parallax h2 {display: inline-block; padding: 3px 40px; margin-bottom: 20px; font-size: 20pt; font-weight: normal; color: rgb(240, 226, 226); border: 2px solid chartreuse;}
+section.parallax p {font-size: 15pt; color: white}
+
+/* equipe_devs */ 
+section.equipe_devs {padding: 30px 0; background: rgb(66, 80, 66);}
+section.equipe_devs div.line_txt h2 {padding-top: 20px; font-size: 25pt; font-weight: lighter; color: white;}
+section.equipe_devs div.dev_box {display: flex; width: 100%;}
+section.equipe_devs div.dev {margin: 0 35px; width: 33.3%;}
+section.equipe_devs div.dev img {width: 100%; max-height: 300px; height: 50%; border-radius: 50%; border: 1px solid limegreen; margin-top: 20px;}
+section.equipe_devs div.dev h2 {margin: 15px 0 10px 0; font-size: 20pt; font-weight: lighter; color: aqua;}
+section.equipe_devs div.dev p {font-size: 15pt; text-align: justify; color: rgb(211, 191, 177); line-height: 25px; margin-bottom: 15px;}
+
+/* ultima_sobre */
+section.ultima_sobre {padding: 30px 0; background: #1f1f1f;}
+section.ultima_sobre figure img {width: 90%; max-height: 400px;}
+section.ultima_sobre figure {position: relative;}
+section.ultima_sobre figcaption {position: absolute; top: 0; left: 0; width: 90%; height: 99.5%;  text-align: center; background: rgba(0, 0, 0, 0.5); color: rgb(127, 255, 0); font-size: 30pt; border: 1px solid rgb(127, 255, 0); opacity: 0; transition: 1.5s;}
+section.ultima_sobre figcaption:hover {opacity: 1;}
+section.ultima_sobre figcaption h2 {margin-top: 35%;}
+
+section.ultima_sobre div.bloco2_sobre h2 {font-size: 30pt; font-weight: lighter; color: rgb(255, 255, 255);}
+section.ultima_sobre div.bloco2_sobre p {font-size: 15pt; color: rgb(190, 180, 180); margin-top: 15px;}
+
+/* bg_hero_contato */
+section.hero_mult {background: rgb(41, 36, 36) url('../_assets/_img/1-min.jpg') no-repeat center; background-size: cover; background-attachment: fixed; padding: 40px 0;}
+
+/* form_contato */
+section.form_contato {padding: 30px 0; background: rgb(41, 36, 36);}
+section.form_contato div.bloco_1_contato h2 {font-size: 15pt; font-weight: normal; padding: 5px; color: rgb(65, 94, 55); background: lightgreen; border-left: 5px solid rgb(92, 151, 92); text-align: center;}
+section.form_contato form.form_contato {margin-top: 20px; padding: 10px; text-align: center;}
+section.form_contato form.form_contato div.w50 , 
+section.form_contato form.form_contato div.w100 {padding: 0 10px;}
+section.form_contato form.form_contato input[type="text"], 
+input[type="email"] {width: 100%; margin-bottom: 10px; padding: 8px 3px; border: none; outline: none; font-size: 14pt; color: rgb(100, 98, 98);}
+section.form_contato form.form_contato textarea {width: 100%; border: none; outline: none; height: 150px; resize: vertical; padding: 5px; font-size: 14pt; font-weight: normal; color: rgb(100, 98, 98);}
+section.form_contato form.form_contato input[type="submit"] {margin-top: 15px; height: 40px; width: 50%; border: none;  font-size: 16pt; color: rgb(186, 218, 219); background: rgb(101, 180, 23); cursor: pointer;}
+
+section.form_contato div.bloco_2_contato {padding-left: 50px; margin: 15px 0;}
+section.form_contato div.bloco_2_contato h2 {font-size: 20pt; color: rgb(176, 222, 240); margin-bottom: 10px;}
+section.form_contato div.bloco_2_contato p {font-size: 16pt; color: white;}
+
+/*  =======================   */
+/*        media query         */
+/*  =======================   */
+
+@media (min-width: 1280px){
+    section.form_contato {height: 600px;}
+}
+
+@media (max-width: 768px){
+    .w60 , .w50 , .w40 , .w33  {width: 100%;}
+    .p_b_10 {margin-bottom: 10px;}
+
+    section.front_end div.front_end_col {margin-bottom: 30px;}
+
+    section.equipe_objetivo div.box {flex-wrap: wrap;}
+    section.equipe_objetivo div.avatar {margin-bottom: 15px;}
+    section.equipe_objetivo div.coment {width: calc(100% - 80px);}
+    section.equipe_objetivo div.coment p , div.objetivo p {text-align: justify;}
+    section.equipe_objetivo {text-align: center;}
+ 
+    footer.footer1 div.w33 {margin-bottom: 20px;}
+
+    section.equipe_devs div.dev_box {flex-wrap: wrap;}
+    section.equipe_devs div.dev {width: 100%;}
+    section.equipe_devs div.dev img {width: 50%; height: 150px; border-radius: 100%;}
+
+    section.ultima_sobre figure {margin-bottom: 20px;}
+    section.ultima_sobre figure img {width: 100%;}
+    section.ultima_sobre figcaption {width: 100%;}
+
+    section.form_contato div.bloco_2_contato {margin-bottom: 50px;}
+}
+
+@media (max-width: 500px){ 
+    header {padding: 6px 0;}
+    header nav.menu_pc {display: none;}
+    header div.logo {padding: 5px 0; text-align: center; position: relative; left: 35%;} 
+    /* menu mobile */
+    header nav.menu_mobile {display: block; position: relative;}
+    header span.menu_bars{display: block;}
+
+    /* hero */
+    section.hero {padding: 150px 0;}
+
+    /* img_txt */
+    section.img_txt {padding: 3px;}
+    section.img_txt div.img_txt_box img {width: 100%;}
+    section.img_txt div.img_txt_box p {width: 100%;}
+    section.img_txt div.img_txt_p2 {margin: 30px 0;}
+    
+}
